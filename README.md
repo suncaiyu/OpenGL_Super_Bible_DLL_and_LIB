@@ -9,4 +9,4 @@ https://blog.csdn.net/JW__fu/article/details/83476071
 
 最后编译gltools时，会报一大堆库链接不到的warning，但是最后还是会生成lib，不知道有没有影响，有知道的大佬可以告诉我一下。
 
-还有时编译会报一些问题，记得把GTLoos.h里关于window的预定义  #define 里的WIN32改为_Win32就好了，具体什么错误不记得了
+还有时编译会报一些问题，记得把GTLoos.h里关于window的预定义#define里的WIN32改为_Win32就好了(GLBatch.h和GLShaderManager.h),具体什么错误不记得了  好像是好多未定义还有一些其他的错
